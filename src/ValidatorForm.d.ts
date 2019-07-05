@@ -13,7 +13,7 @@ export interface ValidatorFormProps {
      * If false, form will be validated only after clicking submit button.
      * @default true
      */
-    instantValidate: boolean
+    instantValidate?: boolean
 
     /**
      * Callback for form that fires when some of validations are not passed. 
